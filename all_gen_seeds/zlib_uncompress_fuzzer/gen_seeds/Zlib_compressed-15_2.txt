@@ -1,0 +1,1 @@
+Some implementations of Zlib allow for parallel processing of compression and decompression tasks, leveraging multi-core processors for faster data processing.

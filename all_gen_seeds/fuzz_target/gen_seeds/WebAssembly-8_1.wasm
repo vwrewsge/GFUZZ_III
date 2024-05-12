@@ -1,0 +1,9 @@
+
+(module
+  (func $extend_function (import "env" "extend_function") (param i32) (result i32))
+  (func $main (result i32)
+    ;; Call the imported extend_function with parameter 8
+    (call $extend_function (i32.const 8))
+  )
+)
+

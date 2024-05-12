@@ -1,0 +1,8 @@
+
+(module
+  (import "env" "print" (func $print (param i32)))
+  (func $version (import "env" "version") (result i32))
+  (func (export "get_version") (result i32)
+    call $version
+  )
+)
